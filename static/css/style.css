@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Creepster&family=Josefin+Sans:wght@100;300;500;700&display=swap');
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Creepster', cursive;
+    background-image: linear-gradient(rgba(9, 25, 10, 0.05), rgba(9, 25, 10, 0.1)), url("../pumpkaboo.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 150px;
+    font-weight: 600;
+    color: rgb(255,255,255);
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    margin: 0px;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    padding: 15px;
+    position: absolute;
+    left: 4vw;
+    top: 30vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px rgba(255, 255, 255); */
+    border: 2px solid rgb(255, 255, 255);
+}
+p {
+    font-family: 'Josephin-sans', sans-serif;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+#input {
+    height: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+#submit {
+    width: fit-content;
+    padding: 5px 10px 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgb(199, 224, 240);
+}
+#submit:hover {
+    background-color: rgb(207, 205, 205);
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
+@media only screen and (max-width: 1014px) {
+    h1 {
+        font-size: 12vw;
+        margin-top: 10vh;
+    }
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Josephine', arial, helvetica;
+    letter-spacing: 1px;
+}
